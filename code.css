@@ -1,0 +1,38 @@
+
+.slot-name-wrapper {
+  display: flex;
+  padding: 0px 0 0 0 ;
+  background-color: #f3f3f300;
+  margin-left: .5em;
+}
+
+.slot-name-container {
+  width: 32px;
+  height: 40px;
+  overflow: hidden;
+}
+.slot-name-container:nth-child(2){
+    width: 15px;
+}
+.slot-name-container:nth-child(9){
+    width: 5px;
+}
+.slot-name-strip {
+  display: flex;
+  flex-direction: column;
+}
+
+.slot-name-letter {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  font-size: var(--fs-l);
+  line-height: 40px;
+  color: var(--co-1);
+}
+  @media screen and (max-width: 767px) {
+  
+    .slot-name-letter{
+      font-size: var(--fs-m);
+    }
+  }
